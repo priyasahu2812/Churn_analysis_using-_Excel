@@ -1,0 +1,83 @@
+Data Check --> Explore Data  --> Analyze and Visualize --> Dashboarding --> Communicate Insights
+
+1.1 Convert to Both tables to Tabular 👍
+
+1.2 Checking Customers - remove duplicates 👍
+
+1.3 Create a new column "Churned" in our [Customers] table that uses an IF() to convert the values in [Churn Label]👍
+
+1.4 Display the total count of customers and number of churned customers using pivot. (you can rename headers) and rename it "Customer Pivot"👍
+
+1.5 Identify churn rate in a new column (Format in percentage) #26.86%
+
+1.6 Analyze the total number of churned customers by [Churn Reason].
+
+1.7 Sort it and Show the Churned Customers as a "% of Grand Total".
+
+1.8 Analyze the total number of churned customers as % of grand total by [Churn Category] and [Churn Reason].
+
+1.9 Filter the PivotTable to only include Competitor and Create a visualization of your choice.
+
+2.1 Create a new column "Demographics" next to the [Group] column using a nested IF() formulas that categorizes customers into the following categories: "Under 30", "Senior" and "Other".
+
+2.2 Create a blank PivotTable of the Aggregate table and place it in a new Worksheet. Rename this worksheet "Churn Analysis".
+
+2.3 
+Create a calculated field "Churn Rate %" that divides churned customers by total customers, then add it to the PivotTable.
+Format the calculated field as a % to two decimal places.
+
+2.4 Break this out even further and analyze churn by Demographics.(Which demographic group has the highest churn rate?)
+
+2.5
+Create a copy of the PivotTable from the previous exercise in the [Churn Analysis] sheet.
+Replace [Demographics] with [Age] in Rows and add [Total Customers] to Values.
+
+2.6 Create a line and clustered column chart that shows the number of customers and churn rate for every age bracket.
+
+2.7 Create a PivotTable in [Churn Analysis] based on the [Aggregate] table that analyses the total number of customers who have an unlimited data plan, as well as the churn rate.
+
+2.8 
+Create a new column in Databel - Aggregate called Grouped Consumption that classifies the average monthly GB download in the following groups:
+	1.Less than 5 GB.
+	2.Between 5 and 10 GB.
+	3.10 or more GB.
+
+2.9 Refresh your PivotTable and re-arrange your table to analyze churn rate by [Unlimited Data Plan] and [Grouped Consumption.]
+
+2.10 Create a stacked bar or column chart to visualize [Churn Rate] by [Unlimited Data Plan] and broken out by average consumption levels.()
+
+2.11 Create a PivotTable in [Churn Analysis] based on the Aggregate table that displays a matrix of churn rate by [State] and whether a customer is on an [Intl Plan]
+
+2.12 Apply a Red - Yellow - Green colour scale on the churn rate values within the PivotTable.
+
+2.13 Create a PivotTable that displays churn rate based on the customers account length.
+
+2.14 Create groups for Account Length (in months) with a split of 12.
+
+2.15 Investigate how this decrease behaves through the different types of contracts.
+
+3.1 Create a new worksheet called "Overview" and remove the gridlines from the sheet.
+
+3.2 Create the following headers in cells B2, C2 and D2:
+	1.Total Customers
+	2.Churned Customers
+	3.Churn Rate % 
+
+3.3 Under each header input the KPIs from your Customer Analysis.
+
+3.4 Add a visualization that shows the breakdown of churn rate based on the reason customers provided.
+
+3.5 Add a visualization that shows a filtered view of [Churn Category] based on 'Competitor' with [Churn Rate %] and [Churn Reason] visible. 
+
+3.6 Display the Churn Rate of the Demographic groups.
+
+3.7 Add a visualization that shows the breakdown of customers and churn rate based on age ranges.
+
+3.8 Add a visualization that shows the breakdown of churn based on the average amount of data the customer uses.
+
+3.9 
+	1.Create a copy of the table matrix that displays churn rate by state and international plan into the Overview page.
+	2.Update the PivotTable with a filter to only include those on an international plan.
+	3.Sort the PivotTable by highest to lowest churn rate.
+
+3.10 Apply a value filter that only displays the top 25 states based on the highest churn rate.
